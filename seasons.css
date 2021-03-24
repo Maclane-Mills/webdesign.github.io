@@ -1,0 +1,112 @@
+body {
+
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: verdanna, monospace;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 60%;
+    height: 50%;
+}
+
+header {
+    padding: 20px;
+    padding-left: 250px;
+    background-color: white;
+    border: 20px solid;
+}
+
+nav {
+
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: green;
+    color: white;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+section h1,
+section h2 {
+    color: black;
+    font-family: monospace;
+    font-size: 180%
+}
+
+section h2 {
+    color: #004792;
+    font size: 140%l;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+.button {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+a.button:hover {
+    background-color: green;
+}
+
+.un {
+    float: right;
+    width: 40%;
+    height: 40%;
+    border: 10px solid blue;
+    padding: 2px
+}
+
+.p {
+    font-size: 120%;
+    font-family: monospace;
+}
